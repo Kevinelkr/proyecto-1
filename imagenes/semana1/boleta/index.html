@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin Chonta</title>
+</head>
+
+<body>
+  <h1>Kevin Chonta</h1>
+  <script>
+    // alert('Calculadora de número');
+    // let number1 = prompt('Ingrese número 1');
+    // let number2 = prompt('Ingrese número 2');
+    // alert('Qué operación le gustaría hacer');
+    // let response = prompt('1 (suma), 2 (resta), 3 (multiplicación), 4 (división)');
+    // if (response == '1') {
+    //   alert(+number1 + +number2)
+    // } else if (response == '2') {
+    //   alert(+number1 - +number2)
+    // } else if (response == '3') {
+    //   alert(+number1 * +number2);
+    // } else if (response == '4') {
+    //   alert(+number1 / +number2);
+    // }
+    // alert('Matrimonio masivo');
+    // let name1 = prompt('Ingrese el nombre de un casado');
+    // let name2 = prompt('Ingrese el nombre del otro casado');
+    // alert(name1 + ' usted es casará con ' + name2);
+
+    // Generador de vouchers
+    alert('Ingrese su usuario');
+    let nombre = prompt('Ingresar nombre');
+    let dni = prompt('Ingresar DNI');
+    alert(`
+      Nombre: ${nombre},
+      DNI: ${dni},
+      Boleta: ${(Math.random(0, 100) * 100).toFixed(2)}
+      Fecha: ${new Date()},
+      // IGV monto total * 0.19
+    `);
+
+    
+  </script>
+</body>
+
+</html>
